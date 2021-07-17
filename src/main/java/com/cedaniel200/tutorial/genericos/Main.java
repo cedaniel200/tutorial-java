@@ -13,5 +13,8 @@ public class Main {
         ContenedorConGenericos<Rectangulo> contenedorConGenericos = new ContenedorConGenericos<>();
         contenedorConGenericos.setDato(new Rectangulo());
         Rectangulo rectangulo = contenedorConGenericos.getDato();
+
+        ContenedorConGenericos<Circulo> contenedorCirculo = new ContenedorConGenericos<>();
+        contenedorCirculo.setDato(new Circulo());
     }
 }
