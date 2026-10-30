@@ -52,14 +52,20 @@ Rectangulo rectangulo = contenedor.getDato(); // sin cast
 
 ## Cómo ejecutarlo
 
-No hay wrapper de Gradle, así que se compila con el JDK:
+Con el wrapper de Gradle incluido:
+
+```bash
+./gradlew build
+```
+
+También puedes compilar a mano con el JDK 21:
 
 ```bash
 javac -d out $(find src/main/java -name '*.java')
 java -cp out com.cedaniel200.tutorial.genericos.Main
 ```
 
-También puedes abrir el proyecto en IntelliJ IDEA o VS Code y ejecutar `Main`.
+O abrir el proyecto en IntelliJ IDEA o VS Code y ejecutar `Main`.
 
 ## Qué aprenderás
 
